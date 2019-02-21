@@ -5,4 +5,4 @@ String的底层实现是char类型的数组，而该数组的长度是int类型�
 char类型占位2Byte，因此最大占用空间为 2147483647*2Byte = 4294967294Byte = 4GB
  
 ## 2.并行与并发：
-https://github.com/snnile2012/JAVA-tips/blob/master/pics/concurrent.jpg
+![image](https://github.com/snnile2012/JAVA-tips/blob/master/pics/concurrent.jpg)
