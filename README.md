@@ -6,3 +6,10 @@ char类型占位2Byte，因此最大占用空间为 2147483647*2Byte = 429496729
  
 ## 2.并行与并发：
 ![image](https://github.com/snnile2012/JAVA-tips/blob/master/pics/concurrent.jpg)
+
+## 3.代表数字的char转int：
+有一个char类型的变量a='9'，如何转换为int 9？
+```java
+char a = '9';
+int b = a - '0';
+```
