@@ -3,6 +3,9 @@ JAVA中有趣的知识点
 ## 1.String的最大长度及最大占用空间：
 String的底层实现是char类型的数组，而该数组的长度是int类型，即该数组的最大长度为Integer.MAX_VALUE:（2^31）-1 = 2147483647；  
 char类型占位2Byte，因此最大占用空间为 2147483647*2Byte = 4294967294Byte = 4GB
+MORE:
+对于直接写在代码里的字符串（如 String s = "abc"），受JVM编译规则限制：
+JVM规范，字符串常量池中的字符串会被存储为CONSTANT_Utf8_info结构，其长度是2个字节（无符号short），最大值为65535（即2^16 - 1）
  
 ## 2.并行与并发：
 ![image](https://github.com/snnile2012/JAVA-tips/blob/master/pics/concurrent.jpg)
